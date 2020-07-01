@@ -1,0 +1,305 @@
+
+
+*{
+
+  padding:0px;
+
+  margin:0px;
+
+  font-family:Arial;
+
+
+
+}
+
+
+
+nav{
+
+  width:1440px;
+
+  height:100px;
+
+  background-color:#22223b;
+
+  list-style-type:none;
+
+
+
+}
+
+
+
+nav li {
+
+  list-style-type:none;
+
+  float:left;
+
+  margin-left:30px;
+
+  padding-left:100px;
+
+  padding-top:40px;
+
+  text-align:center;
+
+  font-size:20px;
+
+}
+
+
+
+nav ul li a {
+
+  color:#FFD700;
+
+  text-align: center;
+
+  text-decoration: none;
+
+  padding-left: 1px;
+
+}
+
+h3 {
+  font-family: "Emblema One";
+  text-align: center;
+  color: black;
+}
+
+p{
+  font-family: "Kodchasan";
+  text-align: justify;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 20px;
+
+}
+
+
+.arrow {
+
+  padding-left:1350px;
+
+  padding-top: 10px;
+
+}
+
+
+.fontsize {
+  font-size: 10pt;
+}
+
+body {
+  background-color: #2b2b2b;
+}
+
+/*GAMES CARD*/
+
+h1 {
+  font-size: 90px;
+}
+
+h2 {
+  font-size: 35px;
+}
+
+.card-categories {
+  background-size: cover;
+  background-position: left;
+  height: 100px; /* height of the card */ 
+  display: flex;
+  /*justify-content: center;*/
+  /*align-items: center;*/
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  /*background-color: #2b2b2b;*/
+  font-size: 10px;
+}
+
+.cards {
+  /*display: grid;*/
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+  justify-content: center;
+  margin-top: 1px;
+  margin-bottom: 20px;
+  margin-right: 40%;
+}
+
+/*SKRIBBLE*/
+
+.card-categories-sub-2 {
+  background-size: cover;
+  background-position: left;
+  height: 45px; /* height of the card */ 
+  display: flex;
+  /*justify-content: center;*/
+  /*align-items: center;*/
+  color: #0e0e0e;
+  font-size: 12px;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  /*background-color: #ff0074;*/
+  font-size: 10px;
+}
+
+.cards-sub-2 {
+  /*display: grid;*/
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-right: 87%;
+}
+
+/*MOBILE LEGENDS*/
+.card-categories-sub-3 {
+  background-size: cover;
+  background-position: left;
+  height: 45px; /* height of the card */ 
+  display: flex;
+  /*justify-content: center;*/
+  /*align-items: center;*/
+  color: #ffd700;
+  font-size: 12px;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  /*background-color: #ff0074;*/
+  font-size: 10px;
+}
+
+.cards-sub-3 {
+  /*display: grid;*/
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-right: 76%;
+}
+
+/*COD*/
+.card-categories-sub-4 {
+  background-size: cover;
+  background-position: left;
+  height: 45px; /* height of the card */ 
+  display: flex;
+  /*justify-content: center;*/
+  /*align-items: center;*/
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  /*background-color: #ff0074;*/
+  font-size: 10px;
+}
+
+.cards-sub-4 {
+  /*display: grid;*/
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-right: 70%;
+}
+
+/*PUBG*/
+.card-categories-sub-5 {
+  background-size: cover;
+  background-position: left;
+  height: 45px; /* height of the card */ 
+  display: flex;
+  /*justify-content: center;*/
+  /*align-items: center;*/
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  /*background-color: #ff0074;*/
+  font-size: 10px;
+}
+
+.cards-sub-5 {
+  /*display: grid;*/
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-right: 81%;
+}
+
+/*UNO*/
+.card-categories-sub-6 {
+  background-size: cover;
+  background-position: left;
+  height: 45px; /* height of the card */ 
+  display: flex;
+  /*justify-content: center;*/
+  /*align-items: center;*/
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  /*background-color: #ff0074;*/
+  font-size: 10px;
+}
+
+.cards-sub-6 {
+  /*display: grid;*/
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-right: 82%;
+}
+
+
+/*RECOMMENDED GAMES*/
+.card-categories-sub-7 {
+  background-size: cover;
+  background-position: left;
+  height: 45px; /* height of the card */ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-size: 12px;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  border-radius: 764px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  /*background-color: #ff0074;*/
+  font-size: 10px;
+}
+
+.cards-sub-7 {
+  /*display: grid;*/
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: 5px;
+  margin-right: 67%;
+}
+

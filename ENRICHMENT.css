@@ -1,0 +1,168 @@
+body {
+  background-color: #12344a;
+}
+
+h1 {
+  color: #901215;
+  font-weight: 900;
+}
+
+h3 {
+  text-align: center;
+  color: #ca0000;
+  /*display: flex;
+  justify-content: flex-end;*/
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 50%;
+  padding: 0 10px;
+
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+/*FIRST ENRICHMENT EVENT*/
+
+.card-1 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+  border-radius: 12px;
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(cirqu-du-seleil.jpg);
+  background-size: 490px 180px;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 180px;
+}
+
+/*SECOND ENRICHMENT EVENT*/
+.card-2 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+  border-radius: 12px;
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(painting-with-coffee.png);
+  background-size: 490px 180px;
+  /*background-size: cover;*/
+  background-position: center;
+  /*background-repeat: no-repeat;*/
+  height: 180px;
+}
+
+.card-3 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+  border-radius: 12px;
+/*  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(Contact-us-banner-green-min.jpg);
+*/  background-size: 490px 180px;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 180px;
+  /*display: flex;*/
+}
+
+
+
+.container {
+	background-position: center;
+	/*text-align: center;  */
+	/*display: block;*/
+	/*margin: 10px 100px 0px 100px;  compresses the width of the card */
+
+}
+
+.card-categories {
+  background-size: cover;
+  background-position: left;
+  height: 180px;
+  display: flex;
+  /*justify-content: center;*/
+  /*align-items: center;*/
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  background-color: #2b2b2b;
+  font-size: 9px;
+}
+
+.card-categories-2 {
+  background-size: cover;
+  background-position: left;
+  height: 180px;
+  display: flex;
+  /*justify-content: center;*/
+  /*align-items: center;*/
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  background-color: #2b2b2b;
+  font-size: 10px;
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(Contact-us-banner-green-min.jpg);
+  background-size: cover;
+}
+
+.cards {
+  /*display: grid;*/
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+}
+
+#header {
+
+  border-bottom-style: outset;
+  border-color: white;
+  /*width: 70%;*/
+  /*position: center;*/
+  margin-bottom: 10px;
+  /*display: flex;*/
+}
+
+.fa-home:hover {
+  color: white;
+  cursor: pointer;
+}
+
+/*DO CLEAN UP AFTER INITIAL SETUP*/

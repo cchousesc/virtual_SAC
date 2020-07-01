@@ -1,0 +1,19 @@
+body {
+  background-color: #12344a;
+}
+
+h3 {
+  /*text-align: center;*/
+  color: #a68445;
+}
+
+#header {
+
+  border-bottom-style: outset;
+  border-color: white;
+  width: 70px;
+}
+
+h1 {
+	color: white;
+}

@@ -1,0 +1,125 @@
+body {
+  background-color: #12344a;
+}
+
+h3 {
+  text-align: center;
+  color: #a68445;
+}
+
+h4 {
+	color: #f0a500; /*BUMBLE BEE YELLOW*/ 
+}
+
+p {
+	color: #f0a500;
+}
+
+#header {
+
+  border-bottom-style: outset;
+  border-color: white;
+  /*width: 70%;*/
+  /*position: center;*/
+  /*margin-bottom: 10px;*/
+}
+
+.container {
+	background-position: center;
+	text-align: center;  
+	/*display: block;*/
+	/*margin: 10px 100px 0px 100px;  compresses the width of the card */
+
+}
+
+/*workshop pic CARD*/
+.card-categories {
+  background-size: cover;
+  background-position: center;
+  height: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  background-color: #2b2b2b;
+  font-size: 10px;
+}
+
+.cards {
+  /*display: grid;*/
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 140px;
+  margin-right: 140px;
+
+}
+
+/*capacity & trending CARD*/
+.card-categories-2 {
+  background-size: cover;
+  background-position: left;
+  height: 90px;
+  display: flex;
+  /*justify-content: center;*/
+  /*align-items: center;*/
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  background-color: #2b2b2b;
+  font-size: 10px;
+
+}
+
+.cards-2 {
+  /*display: grid;*/
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 140px;
+  margin-right: 400px;
+  border-color: #392a40;
+}
+
+/*JOIN AND REGISTER card*/
+.card-categories-3 {
+  background-size: cover;
+  background-position: left;
+  height: 90px;
+  display: flex;
+  /*justify-content: center;*/
+  /*align-items: center;*/
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  background-color: #2b2b2b;
+  font-size: 10px;
+}
+
+.cards-3 {
+  /*display: grid;*/
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 140px;
+  margin-right: 400px;
+
+}
+/*CLEAN UP CSS AFTER INITIAL SETUP*/

@@ -8,8 +8,8 @@
   }
 
   body {
-  background: url("sac-chair.jpg") no-repeat fixed center; 
-  background-size: 100% 80%; /*1350px 1013px*/
+  background: url("vsac_lounge.jpeg") no-repeat fixed center; 
+  background-size: cover; /*1350px 1013px*/
   /*background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("sac-chair.jpg") no-repeat fixed center;*/
 }
 

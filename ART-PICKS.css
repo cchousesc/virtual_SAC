@@ -23,10 +23,10 @@ p {
 
 
 .container {
-	
-	/*text-align: center;  */
-	/*display: block;*/
-	margin: 10px 100px 0px 100px; /* compresses the width of the card */
+  
+  /*text-align: center;  */
+  /*display: block;*/
+  margin: 10px 270px 0px 270px; /* compresses the width of the card */
 
 }
 
@@ -48,3 +48,131 @@ p {
   background-color: white;
 
 }
+
+
+/*NAVBAR*/
+
+nav{ /* NAV BAR*/
+    width:100%; /*change to 100%*/ 
+    height:100%; /*change to 100%*/
+    /*background-color:#22223b;*/
+    list-style-type:none;
+  }
+
+
+
+  nav li {
+    list-style-type:none;
+    float:left;
+    margin-left:50px;
+    padding-left:100px;
+    padding-top:15px;
+    padding-bottom:15px;
+    text-align:center;
+    font-size:20px;
+    /*margin-bottom: 20%;*/
+  }
+
+  nav ul li a {
+    color:#FFD700;
+    text-align: center;
+    text-decoration: none;
+    padding-left: 40px;
+  }
+
+  /*DROP DOWN*/ /* clean this up once u are done */
+
+/* Dropdown Button */
+.dropbtn {
+  /*background-color: #4CAF50;*/
+  color: #FFD700;
+  /*padding: 16px;*/
+  font-size:20px
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown { /* this is for the drop down */
+  /*position: relative;*/
+  display: inline-block; /* responsible for letting dropdown stick */
+}
+
+/* Dropdown Content (Hidden by Default) */ /* change the displays */
+.dropdown-content { /* this is for what's inside the dropdown box */
+  display: none;
+  /*position: absolute;*/
+  background-color: #FFD700;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  /*z-index: 1;*/
+}
+
+/* Links inside the dropdown */
+.dropdown-content a { /* this is for whats inside the dropdown */
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: inline-flex;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+/*.dropdown:hover .dropbtn {background-color: #3e8e41;}*/
+
+/*FOOTER*/
+
+div.relative {
+    width: 100%; /*1350px*/
+    height: 100%; /*50px*/
+    border: 3px solid #adb5bd;
+    background-color: #adb5bd;
+    text-align:justify; 
+  }
+
+  div.relative p{
+    font-family: "Knewave";
+    font-size:20px;
+  }
+
+  footer{
+    background-color:#dcdcdd;
+    width:100%;/*1350px*/
+    height:100%;/*50px*/
+    font-family: 
+  }
+
+  .arrow {
+    padding-left:1290px;
+    padding-top: 10px;
+    /*color: black;*/
+  }
+
+  footer p {
+    font-family: "Knewave";
+    font-size:20px;
+    display: flex;
+    justify-content: center;
+
+  }
+
+  .logo {
+    /*padding-right:300px;
+    top: 90px;*/
+    /*float:center;*/
+    display: flex;
+   /* justify-content: center;
+    align-items: center*/
+  }
+
+  .footer-text {
+    color: black;
+
+  }
+
+/*look into momento's avatar and see how it is done*/
+

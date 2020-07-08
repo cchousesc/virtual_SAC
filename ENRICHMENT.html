@@ -2,93 +2,123 @@
 <html>
 <head>
 	<title>ENRICHMENT</title>
+	<link rel="stylesheet" href="ENRICHMENT.css">
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Knewave" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Kodchasan" rel="stylesheet">
 </head>
-<link rel="stylesheet" href="ENRICHMENT.css">
-
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
-
-
 <body>
-	<div id="header">
 
-		<a href="index.html"><i class="fas fa-home" style="display: inline-block; "> </i> </a>
+	<nav id="top">
 
-		<h3>ENRICHMENT</h3>
-	</div>
+    <ul>
+
+      <li><a href="home-page-2.html">HOME</a></li> <!-- add some fancy javascript here -->
+
+                <!-- WHATS NEWS -->
+                <div class="dropdown">
+                  <li>  <div class="dropbtn"> WHAT'S NEW? </div>     </li>
+                  <div class="dropdown-content">
+                    <a href="ANNOUNCEMENTS.html">Announcements</a>
+                    <a href="EVENTS.html">Events</a>
+                    <a href="HOTSPOTS.html">Hotspots</a>
+                    <!-- <a href="#">Notes</a> -->
+                  </div>
+                </div>
+
+                 <!-- GAMES -->
+                <div class="dropdown">
+                  <li>  <div class="dropbtn"> GAMES </div>     </li>
+                  <div class="dropdown-content">
+                    <a href="games.html">Forum</a>
+                    <a href="about_us.html">About Us</a>
+                    <!-- <a href="#">Link 3</a> -->
+                  </div>
+                </div>
+
+                <!-- ACTIVITIES -->
+                <div class="dropdown">
+                  <li>  <div class="dropbtn"> ACTIVITIES </div>     </li>
+                  <div class="dropdown-content">
+                    <a href="ART-PICKS.html">Art Pick</a>
+                    <a href="ENRICHMENT.html">Enrichments</a>
+                    <a href="WORKSHOPS.html">Workshops</a>
+                  </div>
+                </div>
+
+    </ul>
+
+  </nav>
+
+	
 	<div class="container">
 
-		<div class="row">
-			<div class="column">
-				<div class="card-1">
-					<!-- <h3>60-MINUTE SPECIAL Cirque du Soleil </h3> -->
-					<!-- <p style="color: white;">1.5 enrichment hours</p> -->
-					<!-- <p style="color: white;">XX/XX - XX/XX</p> -->
-				</div>
-			</div>
-
-			<div class="column">
-				<div class="card-2">
-					<!-- <h3>Painting with Coffee</h3>
-					<p>1 enrichment hour</p>
-					<p>XX/XX - XX/XX</p> -->
-				</div>
-			</div>
+		<div id="header">
+			<h3>ENRICHMENT</h3>
 		</div>
+		<!-- FIRST ENRICHMENT -->
+		<div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), 						   url(cirqu-du-seleil.jpg);
+  									background-size: 724px 190px;
+  									/*background-size: cover;*/
+  									background-position: center;
+  									background-repeat: no-repeat;"> <!-- adjust the margins -->
+			<!-- insert image here -->
+		</div>
+		
+		<!-- FIRST ENRICHMENT -->
+		<h3>60-MINUTE SPECIAL Cirque du Soleil
+			<p>1.5 enrichment hours</p> 
+			<p>XX/XX - XX/XX</p>
 
-		<div class="cards">
-			<div class="card-categories" >
-
-				<div style="width: 90%; padding: 20px;">
-					Short Description:
-					<br>
-					Cirque du Soleil is the largest contemporary circus producing company in the world. They feature performances which incorporates circus and performance acts from various cultures and genres. They do not include animals in their performances. Cirque du Soleil also incorporates various modern technologies and Arts into their productions and hence, the production value and quality of performances are extremely high. They tour globally and often come to Singapore for performances.
-					<br>
-					<!-- In response to the worldwide Codvid situation, Cirque du Soleil put up youtube clips of their performances to share with the world. This video is a combination of highlights from 3 of their shows – Alegría, Kooza and KÀ. -->
-	 				
-					<p><a href="https://www.youtube.com/watch?v=VL0TG_nCqzE" style="font-size: 20px;">click here to watch</a></p>
+			<button id="links"><a href="https://www.youtube.com/watch?v=VL0TG_nCqzE" style="font-size: 20px; text-decoration: none; color: white;">click here to watch</a></button>
 					
-					<p><a href="https://form.gov.sg/5eeb3294774dfa0011e83ec3" style="font-size: 20px;">Evaluation Form</a></p>
-			</div>
-
- 			<div style="width: 90%; padding: 20px;">
-				Short Description: <br>
-				Join us for a session on coffee art and learn the basics of coffee painting techniques simply using coffee and water. Everyone can do it! Watch the tutorial, take a photo of yourself with your own coffee art and submit at 
-				<br><br>
-				<p><a href="https://www.instagram.com/tv/CAoqsF9Bkyq/?utm_source=ig_web_copy_link" style="font-size: 20px;">click here to watch</a></p>
-				
-				<p><a href="https://form.gov.sg/5eeb40a3d03be40011551a67" style="font-size: 20px;">Evaluation Form</a></p>
-			</div>
-
-			</div>
+			<button id="links"><a href="https://form.gov.sg/5eeb3294774dfa0011e83ec3" style="font-size: 20px; text-decoration: none; color: white;">Evaluation Form</a></button>
+			<!-- <br>Created for the first time in 2000, this program celebrated Ohad Naharin's ten years of creation within the company by offering a striking collage of excerpts from his repertoire. Regularly  recomposed and enriched since, the piece is today the opportunity, for  the Israeli choreographer,
+			<br>
+			to show the variety of his inspiration - the  most demonstrative movement to the very intimate expression -, but also  to question the lines of force from his work. More than a set of selected pieces, it is therefore a real re-creation whose repertoire provides the material constantly revisited. 
+			<br>
+			Energetic and sensual, always on the string of emotions, those of the body or those of the soul, the dance becomes its own theater. For the greatest pleasure of the spectator, carried away in a whirlwind of gestures, sounds and unforgettable images served by a troupe at its best.
+			<br>Artistic direction: Ohad Naharin -->
+		</h3>
+			<br>
+		<!-- SECOND ENRICHMENT -->
+		<div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), 						   url(painting-with-coffee.png);
+  									background-size: 724px 190px;
+  									/*background-size: cover;*/
+  									background-position: center;
+  									background-repeat: no-repeat;"> <!-- adjust the margins -->
+			<!-- insert image here -->
 		</div>
-
-		<div class="row">
-			<div class="column">
-				<div class="card-3">
-					<h1>Want to make your event bigger and better?</h1>
-					<!-- <p>brought to you by house committee</p> -->
-					<!-- <p>29/6</p> -->
-				</div>
-			</div>
-
-			<div class="column">
-				<div class="card-3">
-					<h1>Want to make your event bigger and better?</h1>
-
-					<!-- <h3>PubG live stream league</h3>
-					<p>3 enrichment hours</p> -->
-					<!-- <p class="showcase">99/99</p> -->
-				</div>
-			</div>
-		</div>
-
-		<div class="cards">
-			<div class="card-categories-2" >
-				<!-- content <br>
-				video links <br>
-				link to submission <br> -->
-			</div>
-		</div>
+		
+		<!-- SECOND ENRICHMENT -->
+		<h3>Painting with Coffee
+			<p>1.5 enrichment hours</p> 
+			<p>XX/XX - XX/XX</p>
+			<button id="links"><a href="https://www.instagram.com/tv/CAoqsF9Bkyq/?utm_source=ig_web_copy_link" style="font-size: 20px; text-decoration: none; color: white;">click here to watch</a></button>
+					
+			<button id="links"><a href="https://form.gov.sg/5eeb40a3d03be40011551a67" style="font-size: 20px; text-decoration: none; color: white;">Evaluation Form</a></button>
+			<!-- Join us for a session on coffee art and learn the basics of coffee painting techniques simply using coffee and water. Everyone can do it! Watch the tutorial, take a photo of yourself with your own coffee art and submit at  -->
+		</h3>
+			<br>
 	</div>
-	</body>
-	</html>
+
+	<div class="relative">
+
+    <p class="footer-text" style="text-align: center;">Proudly brought to you by the Student Council House Team!</p>
+
+  </div>
+
+      <footer>
+        <!-- <a href="#top"><img class="arrow" src="back_to_top.png" width="50" height="50" alt="back_to_top"/></a> -->
+        <!-- <img class="logo" src="SC.png" width="90" height="90" alt="sc"/> -->
+        <!-- <div class="img-logo">test</div> -->
+        <p class="footer-text" style="text-align: center">© 2020 ITECC Student Council <br> [House Committee] All Rights Reserved</p>
+       
+      </footer>
+</body>
+</html>
